@@ -42,7 +42,7 @@ export default function HomeSection() {
         <div className="flex gap-4">
           <Button variant="secondary" asChild>
             <a href="#sobre">
-              <Notebook />
+              <Notebook className="max-sm:hidden" />
               <Typography.Paragraph className="font-medium">
                 Meu resumo
               </Typography.Paragraph>
@@ -54,7 +54,7 @@ export default function HomeSection() {
                 Entre em contato
               </Typography.Paragraph>
             </a>
-            <ArrowRight />
+            <ArrowRight className="max-sm:hidden" />
           </Button>
         </div>
       </div>
